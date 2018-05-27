@@ -1,0 +1,144 @@
+body {
+    background: #C5C5C5;
+}
+
+#pageframe {
+    margin: 70px auto;
+    margin-bottom: 0px;
+    width: 340px;
+    height: 460px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid darkturquoise;
+    box-shadow: 3px 3px darkgray;
+}
+
+#board,.btnBoard,.scoreBoard {
+    margin: 20px;
+    float:top;
+    background-color: rgb(200,220,250);
+    border-radius: 5px;
+    border: 1px solid rgb(230,230,255);
+}
+
+#board {
+    margin-bottom: 0px;
+    width: 300px;
+    height: 300px;
+}
+
+.keys {
+    overflow: hidden;
+    display: block;
+    margin: 5px auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 280px;
+    height: 280px;
+}
+
+.keys span {
+    float: left;
+    position: relative;
+    top: 0;
+    
+    cursor: pointer;
+    
+    width: 30px;
+    height: 30px;
+    
+    margin: 0px 5px 5px 0px;
+    
+    border-radius: 3px;
+    
+    line-height: 30px;
+    text-align: center;
+    
+    transition: all 0.4s ease;
+}
+
+.btnNotClicked {
+    background: lightgreen;
+    box-shadow: 0px 3px rgba(0,0,0,0.2);
+}
+
+.btnNotClicked:hover {
+    background: #9c89f6;
+    box-shadow: 0px 3px #6b54d3;
+}
+
+.btnNotClicked:active {
+    box-shadow: 0px 0px #6b54d3;
+    top: 3px;
+}
+
+.btnClicked {
+    color: white;
+    font-size: 18px;
+    background: black;
+    box-shadow: 0px 3px rgba(0,0,0,0.6);
+}
+
+.btnClicked:hover {
+    color: white;
+    font-size: 18px;
+    background: black;
+    box-shadow: 0px 3px rgba(0,0,0,0.6);
+}
+
+.scoreBoard {
+    height: 30px;
+}
+
+.scoreBoard label {
+    float: left;
+    margin: 5px 8px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    //background: yellow;
+}
+
+.btnBoard {
+    height: 50px;
+}
+
+.btnBoard label,button {
+    float:left;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#reset {
+    background: rgb(110,110,110);
+    border: 1px solid purple;
+}
+
+#reset:hover {
+    background: rgb(80,80,80);
+    color: white;
+}
+
+#finalRes {
+    margin-left: 17px;
+    line-height: 30px;
+    background: rgb(160,140,230);
+    border: 1px solid purple;
+}
+
+#endtext {
+    margin: 10px auto;
+    width: 340px;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    line-height: 22px;
+    background: goldenrod;
+    border-radius: 5px;
+    border: 1px solid darkorange;
+    box-shadow: 3px 3px darkgray;
+}

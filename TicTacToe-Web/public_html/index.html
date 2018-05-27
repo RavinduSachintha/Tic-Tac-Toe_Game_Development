@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tic Tac Toe - Web application </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="pageframe">
+            <div id="board">
+                <div class="keys">
+                    <span class="btnNotClicked">1</span>
+                    <span class="btnNotClicked">2</span>
+                    <span class="btnNotClicked">3</span>
+                    <span class="btnNotClicked">4</span>
+                    <span class="btnNotClicked">5</span>
+                    <span class="btnNotClicked">6</span>
+                    <span class="btnNotClicked">7</span>
+                    <span class="btnNotClicked">8</span>
+                    <span class="btnNotClicked">9</span>
+                </div>
+            </div>
+            <div class="btnBoard">
+                <label id="finalRes">Playing...</label>
+                <button id="reset" onClick="window.location.reload(true)">Reset Game</button>
+            </div>
+        </div>
+        <p id="endtext"> Designing and Implementation by <b>Ravindu Sachintha</b> </p>
+        <script type="text/javascript" src="./game.js"></script>
+    </body>
+</html>
